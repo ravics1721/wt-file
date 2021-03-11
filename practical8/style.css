@@ -1,0 +1,30 @@
+title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: blue;
+  margin: 10px auto 10px 500px;
+}
+menu {
+}
+recipe {
+  display: table;
+  width: 500px;
+  margin: 0px auto;
+  border-bottom: 1px solid black;
+}
+name {
+  display: table-cell;
+  font-size: large;
+  font-weight: 500;
+  line-height: 2.5rem;
+  color: rgb(22, 22, 51);
+}
+price {
+  display: table-cell;
+  padding-right: 5px;
+  text-align: end;
+  font-size: large;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: rgb(16, 16, 17);
+}

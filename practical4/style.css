@@ -1,0 +1,30 @@
+.frame{
+    background-color: #f5f4f4;
+    color: #22aaaa;
+    width: fit-content;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.title{
+    text-align: center;
+    color: orange;
+}
+
+th{
+    font-weight: bolder;
+    font-size: large;
+    color: #000000;
+    text-align: start; 
+    line-height: 2rem;
+}
+td{
+    line-height: 1.5rem;
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical 10</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <div class="main center">
+        <div class="section">
+          <label class="text" for="name">Name</label>
+          <input type="text" id="name" />
+        </div>
+        <div class="section">
+          <label class="text" for="age">Age:</label>
+          <input type="number" id="age" />
+        </div>
+        <div class="section">
+          <label class="text" for="name">Address:</label>
+          <textarea title="address" minlength="5" id="address"></textarea>
+        </div>
+        <div class="section">
+          <label aria-required="true" class="text" for="gender">Gender:</label>
+          <div class="right-col">
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label><br />
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label><br />
+          </div>
+        </div>
+        <div class="section">
+          <label class="text" for="name">Language:</label>
+          <div class="right-col">
+            <label>(Select more than one)</label><br />
+            <input type="checkbox" id="cpp" name="cpp" value="cpp" />
+            <label for="cpp"> C++</label><br />
+            <input type="checkbox" id="js" name="javascript" value="js" />
+            <label for="js"> Javascipt</label><br />
+            <input type="checkbox" id="java" name="java" value="java" />
+            <label for="java"> Java</label><br />
+            <input type="checkbox" id="py" name="python" value="py" />
+            <label for="js"> Python</label><br />
+            <input type="checkbox" id="php" name="php" value="php" />
+            <label for="js"> PHP</label><br />
+          </div>
+        </div>
+        <div class="section">
+          <label class="text" for="name">Password:</label>
+          <input type="password" id="password" />
+        </div>
+        <div class="center m">
+          <button class="reset" type="reset">Reset</button>
+          <button class="check" type="button">Check</button>
+        </div>
+        <p class="center hl red">Before submiting data please check button</p>
+        <div class="center">
+          <button type="submit" class="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>

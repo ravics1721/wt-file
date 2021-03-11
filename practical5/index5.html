@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical No 5</title>
+  </head>
+  <body>
+    <form>
+      <h1>Entry Form</h1>
+      <div class="main">
+        <div class="form">
+          <p class="table-row">
+            <label class="label text" for="name">Enter Your name :</label>
+            <input
+              class="ml input"
+              type="text"
+              required
+              id="name"
+              name="name"
+            />
+          </p>
+          <p class="table-row">
+            <label class="label text" for="b">Enter your age:</label>
+            <input class="ml input" required id="b" type="number" />
+          </p>
+          <p class="table-row">
+            <label class="label text" for="address">Enter Your address:</label>
+            <textarea
+              class="ml input"
+              type="text"
+              id="address"
+              name="address"
+            ></textarea>
+          </p>
+        </div>
+        <div class="row mb mt">
+          <div>
+            <label class="text" aria-required="true" for="b">Gender:</label>
+          </div>
+
+          <div class="right">
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label><br />
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label><br />
+            <input type="radio" id="other" name="gender" value="other" />
+            <label for="other">Other</label>
+          </div>
+        </div>
+        <!-- Language Section -->
+        <div class="row-bt mb">
+          <div>
+            <label class="text" aria-required="true" for="">Language: </label>
+          </div>
+
+          <div class="right-col">
+            <label>(Select more than one)</label><br />
+            <input type="checkbox" id="cpp" name="cpp" value="cpp" />
+            <label for="cpp"> C++</label><br />
+            <input type="checkbox" id="js" name="javascript" value="js" />
+            <label for="js"> Javascipt</label><br />
+            <input type="checkbox" id="java" name="java" value="java" />
+            <label for="java"> Java</label><br />
+            <input type="checkbox" id="py" name="python" value="py" />
+            <label for="js"> Python</label><br />
+            <input type="checkbox" id="js" name="php" value="php" />
+            <label for="js"> PHP</label><br />
+          </div>
+        </div>
+
+        <div class="form">
+          <p class="table-row">
+            <label class="label text" for="password">Password:</label>
+            <input
+              class="ml-m input"
+              type="password"
+              id="password"
+              name="password"
+              required
+            />
+          </p>
+        </div>
+      </div>
+      <div class="btn-row mt mb">
+        <button class="btn reset" type="reset">Reset</button>
+        <button class="btn submit" type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+    "editor.fontFamily": "Fira Mono, Consolas, 'Courier New', monospace",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "diffEditor.codeLens": true
+}

@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+.center {
+  text-align: center;
+}
+.m {
+  margin: 20px 20px;
+}
+button {
+  margin: 10px;
+  width: 10rem;
+  height: 2rem;
+}
+.red {
+  color: red;
+}
+.hl {
+  font-size: larger;
+  font-weight: 400;
+}
+.disable {
+  visibility: hidden;
+}
+.active {
+  visibility: visible;
+}
+.text {
+  font-size: larger;
+  font-weight: 500;
+  color: rgb(29, 29, 58);
+}

@@ -1,0 +1,28 @@
+title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: blue;
+}
+menu {
+  text-align: center;
+}
+recipe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  width: 350px;
+  margin: 10px auto;
+}
+name {
+  font-size: large;
+  font-weight: 500;
+  line-height: 2.5rem;
+  color: rgb(22, 22, 51);
+}
+price {
+  font-size: large;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: rgb(16, 16, 17);
+}

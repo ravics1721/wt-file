@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <title>Continential Recipes</title>
+    <recipe>
+        <name>Apple Walnet Cake</name>
+        <price>₹ 199</price>
+    </recipe>
+    <recipe>
+        <name>Paneer Steak</name>
+        <price>₹ 149</price>
+    </recipe>
+    <recipe>
+        <name>Sausage Pepper Burger</name>
+        <price>₹ 99</price>
+    </recipe>
+    <recipe>
+        <name>Mutton Stew</name>
+        <price>₹ 249</price>
+    </recipe>
+    <recipe>
+        <name>Scotch Eggs</name>
+        <price>₹ 199</price>
+    </recipe>
+    <recipe>
+        <name>Spinach And Chicken Macaroni</name>
+        <price>₹ 159</price>
+    </recipe>
+    <recipe>
+        <name>White Wine Chicken with Garlic</name>
+        <price>₹ 299</price>
+    </recipe>
+    <recipe>
+        <name>Salted Caramel Pie</name>
+        <price>₹ 199</price>
+    </recipe>
+    <recipe>
+        <name>Corn Toasties</name>
+        <price>₹ 159</price>
+    </recipe>
+    <recipe>
+        <name>Apple Sauce</name>
+        <price>₹ 99</price>
+    </recipe>
+</menu>
